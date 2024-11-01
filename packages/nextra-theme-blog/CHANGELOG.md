@@ -1,5 +1,24 @@
 # nextra-theme-blog
 
+## 4.0.0-app-router.20
+
+### Major Changes
+
+- 5c3e8da: move `getPageMap` from `nextra/page-map` to `nextra/pages`
+
+### Patch Changes
+
+- 7cc8ca1: simplify `generatePageMap`
+- Updated dependencies [3d8705c]
+- Updated dependencies [27454c4]
+- Updated dependencies [7cc8ca1]
+- Updated dependencies [aa94d91]
+- Updated dependencies [5c3e8da]
+- Updated dependencies [9b3a6a5]
+- Updated dependencies [71a051b]
+- Updated dependencies [b873702]
+  - nextra@4.0.0-app-router.20
+
 ## 4.0.0-app-router.19
 
 ### Patch Changes

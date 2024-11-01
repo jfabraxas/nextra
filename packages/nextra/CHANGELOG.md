@@ -1,5 +1,22 @@
 # nextra
 
+## 4.0.0-app-router.20
+
+### Major Changes
+
+- aa94d91: rename `nextra/mdx` to `nextra/mdx-components`
+- 5c3e8da: move `getPageMap` from `nextra/page-map` to `nextra/pages`
+
+### Patch Changes
+
+- 3d8705c: improve `generatePageMap` types
+- 27454c4: remove NextraConfig.transformPageMap
+- 7cc8ca1: simplify `generatePageMap`
+- 9b3a6a5: treat `_meta.{md,mdx}` as page and not as `_meta` file
+- 71a051b: - do not treat `content/page.{mdx,md}` as index page
+  - skip visiting directories which starts with underscore for `app` directory
+- b873702: `firstChildRoute` should return "index" route as first
+
 ## 4.0.0-app-router.19
 
 ### Patch Changes
